@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+ <head>
+ <meta charset="utf-8">
+ <title>Sistema de Cadastro</title>
+ <link rel="stylesheet" href="_css/estilo.css"> <!--apontando o estilo da pagina em css -->
+   </head>
+   <body>
+    <div class="container">
+	<nav>
+	<ul class="menu">
+	      <a href="index.html"><li>Cadastro</li></a>
+          <a href="consultas.html"><li>Consultar</li></a>
+		  
+		  
+	 </ul>
+	</nav>
+	<section>
+	<h1>Cadastro de Usuário</h1>
+	<hr><br><br>
+	<form method="post" action="processa.html"> 
+	 <input type="submit" value="Salvar" class="btn">
+	 <input type="submit" value="Limpar" class="btn">   <!--criando botoes --> 
+	 <br><br>
+	 
+	 Nome<br>
+	 <input type="text" name="nome" class="campo" maxlength="40" required><br>
+	 Email<br>
+	 <input type="text" name="email" class="campo" maxlength="50" required><br>	 <!--criando campos e definindo numero de caracteres que podem ser digitado dentro da textbox -->
+	 Senha<br>
+	 <input type="password" name="senha" class="campo" maxlength="40" required><br>
+	 
+	
+	 
+	 
+	 
+	 </form>
+	 </div>
+	
+	</section>
+   </body>
+   
+   </html>
